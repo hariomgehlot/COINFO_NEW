@@ -1,0 +1,19 @@
+{%extends 'base.html'%}
+{%block subtitle%} :Statewise Data {%endblock%}
+
+
+
+
+{%block body_ %}
+
+ {%load static%} 
+ <div class="all-images">
+   <img class ="gallery-image" src={% static "/core/active.png" %} style="margin-bottom: 60px;" />
+
+   <img class ="gallery-image" src={% static "/core/confirm.png" %} style="margin-bottom: 60px;" />
+
+   <img class ="gallery-image" src={% static "/core/death.png" %} style="margin-bottom: 60px;"/>
+
+  </div>
+
+{%endblock%}
